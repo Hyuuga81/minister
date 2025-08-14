@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハートフルウエディング</title>
+    <!-- add favicon image -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- add css link -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="site-label">
+                    <img src="images/logo.png" alt="ロゴ">
+                    <h1>ハートフルウエディング</h1>
+                </div>
+
+                <button class="nav-btn hide">お問合せ</button>
+            </div>
+
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Heartful Wedding</h2>
+                <h3>ハートフルウエディング</h3>
+                <h3 class="hero-copy">心にしみる本物の拳式を頼む方へ</h3>
+                <button class="hero-btn">お問合せ</button>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="container">
+                <h2>心にしみる本物の拳式を頼む方に</h2>
+                <img class="about-pic hide" src="images/aisle.jpg" alt="教会アイル">
+                <div class="about-content">
+                    <p>30年ほど前からキリスト教会結婚式が主流になり、全国各地にウエディングチャペルが設立されました。競い合うように各地場は、チャペルのデザインや拳式の内容などを次々と新しくし、見栄えの優れた結婚式を作り上げてきました。その一方一番大事なところがおろそかになる傾向があります。それは、神の前で誓いを立てさせて、祝福の祈りをする教師の事です。数をこなすことに重要視する会場は、人選を軽視し、牧師の資格がない人を雇うことさえもあります。一回きりの大事な結婚式ならば、経験豊かな本物の牧師に司式してもらいたいと思わないでしょうか。それならば、ハートフルウエディングのドウゲン牧師に頼んでみるのは、いかがでしょうか？
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <div class="container">
+                <h2>プロフィール</h2>
+                <h3>Jon Dugan | ジョン・ドウゲン</h3>
+                <div class="experience-content">
+                    <img src="images/jon.jpg" alt="ジョン">
+                    <ul>
+                        <li>1983年 アメリカの聖書神学を卒業</li>
+                        <li>1985年 宣教師として来日</li>
+                        <li>1987年 大阪府河内長野市で教会を開拓</li>
+                        <li>2002年 関西聖書学院の教師を務め</li>
+                        <li>2009年（宗）ジャパン・ベサニー・ミッション代表</li>
+                        <li>2020年 奈良ニューライフキリスト教会を開拓</li>
+                        <li>50会場以上で多くの結婚式を司式した経験豊富な牧師</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="container">
+                <h2>サービスについて</h2>
+                <div class="service-contents">
+                    <img src="images/dinner.jpg" alt="デイナー">
+                    <div class="pricing">
+                        <div class="place">
+                            <h3>拳式の場所</h3>
+                            <ul>
+                                <li>ウエディングチャペル（持ち込み牧師承諾要）</li>
+                                <li>レストラン、公園、居宅など。お二人のご要望に応えるため多数の選択肢があります</li>
+                            </ul>
+                        </div>
+                        <div class="aprice">
+                            <h3>費用：￥５０，０００</h3>
+                            <p>事前カウンセリング2回、当日の式料、交通費（関西圏内）</p>
+                            <ul>
+                                <li>関西以外のところで、交通費の自費を頂きます</li>
+                                <li>音楽や写真などのオプションはご相談可能</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+                    <h2>お問い合わせ</h2>
+
+                    <!-- Form Inputs. Each input must have a name="" attribute -->
+                    <input type="text" placeholder="お名前" id="name" name="name" required>
+                    <input type="text" placeholder="ふりがな" id="furigana" name="furigana" required>
+                    <input type="email" placeholder="メールアドレス" id="email" name="email" required>
+                    <textarea name="message" placeholder="お問い合わせ内容" required></textarea>
+
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <!-- Custom Confirmation / Success Page -->
+                    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+                    <button type="submit">送信する</button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&#xa9;<span class="dating"></span> Heartful Wedding</p>
+    </footer>
+
+    <!-- javascript link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
