@@ -12,9 +12,11 @@ html {
     align-items: center;
     flex-flow: row wrap;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
+    min-width: 375px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -23,7 +25,7 @@ body {
     font-size: 1em;
     /* font-family: "Gowun Batang", serif; */
     font-family: "M PLUS 1p", sans-serif;
-    scroll-behavior: smooth;
+
 }
 
 footer {
@@ -139,7 +141,7 @@ nav h1 {
     margin-bottom: 50px;
     padding: 10px 30px;
     border-radius: 20px;
-    border: 1px solid #019245;
+    border: 1px solid #2563EB;
     background: none;
     color: #fff;
 }
@@ -271,6 +273,7 @@ nav h1 {
 .contact form h2 {
     width: 100%;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .contact form input,
@@ -288,8 +291,10 @@ nav h1 {
 .contact form button {
     padding: 10px 30px;
     border-radius: 20px;
-    border: 1px solid #019245;
-    background: #019245;
+    border: 1px solid #2563EB;
+    background: #2563EB;
+    /* border: 1px solid #019245;
+    background: #019245; */
     color: #fff;
     margin: 20px 0;
 }
@@ -320,8 +325,8 @@ footer {
         display: flex;
         padding: 10px 30px;
         border-radius: 20px;
-        border: 1px solid #019245;
-        background: #019245;
+        border: 1px solid #2563EB;
+        background: #2563EB;
         color: #fff;
     }
 
@@ -403,6 +408,12 @@ footer {
         opacity: 90%;
     }
 
+    .contact form h2 {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
 
 }
 
@@ -424,6 +435,10 @@ footer {
         width: 20%;
     }
 
+    nav a {
+        text-decoration: none;
+    }
+
     .nav-btn {
         padding: 10px 50px;
         cursor: pointer;
@@ -431,9 +446,8 @@ footer {
     }
 
     .nav-btn:hover {
-        background: #31cc79;
-        border: 1px solid #31cc79;
-        color: #000;
+        background: #3385ff;
+        border: 1px solid #3385ff;
         transition: 0.4s;
     }
 
@@ -453,9 +467,8 @@ footer {
     }
 
     .hero-content button:hover {
-        border: 1px solid #31cc79;
-        background: #31cc79;
-        color: #000;
+        border: 1px solid #3385ff;
+        background: #3385ff;
         transition: 0.4s;
     }
 
@@ -481,7 +494,10 @@ footer {
         background: #c6c0af;
         border-radius: 5px;
         right: 0;
-        opacity: 0.9;
+    }
+
+    .about-content p {
+        font-size: 1.2em;
     }
 
     .experience-content {
@@ -538,9 +554,8 @@ footer {
     }
 
     .contact form button:hover {
-        background: #31cc79;
-        border: 1px solid #31cc79;
-        color: #000;
+        background: #3385ff;
+        border: 1px solid #3385ff;
         transition: 0.4s;
     }
 
