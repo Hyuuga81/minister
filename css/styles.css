@@ -67,22 +67,21 @@ h2 {
     display: none;
 }
 
-/******************** NAV AND HERO STYLES *******************/
-
-header {
-    width: 100%;
+.centered {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
+/******************** NAV AND HERO STYLES *******************/
+
+header {
+    width: 100%;
+}
+
 nav {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     background: #c6c0af;
 }
 
@@ -108,10 +107,6 @@ nav h1 {
 
 .hero {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mobile-hands.jpg") center, no-repeat;
     background-size: cover;
     color: #fff;
@@ -119,10 +114,6 @@ nav h1 {
 
 .hero-content {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     padding: 250px 0 150px 0;
 }
 
@@ -162,10 +153,6 @@ nav h1 {
 .experience {
     padding: 50px 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     background: #c6c0af;
 }
 
@@ -175,10 +162,6 @@ nav h1 {
 
 .experience-content {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
 }
 
 .experience img {
@@ -204,10 +187,6 @@ nav h1 {
 
 .service-contents {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
 }
 
 .service h2 {
@@ -221,19 +200,11 @@ nav h1 {
 
 .pricing {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
 }
 
 .place,
 .aprice {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     padding-bottom: 20px;
     border-bottom: 1px solid #000;
 }
@@ -262,10 +233,6 @@ nav h1 {
     width: 100%;
     background: #fff;
     opacity: .9;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-flow: row wrap;
     border-radius: 5px;
     padding: 20px 10px;
 }
@@ -315,6 +282,10 @@ footer {
 
     nav .site-label {
         width: 50%;
+    }
+
+    nav a {
+        text-decoration: none;
     }
 
     nav img {
