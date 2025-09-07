@@ -203,14 +203,14 @@ nav h1 {
 }
 
 .place,
-.aprice {
+.aprice, .photos {
     width: 100%;
     padding-bottom: 20px;
     border-bottom: 1px solid #000;
 }
 
 .place h3,
-.aprice h3 {
+.aprice h3, .photos h3 {
     margin: 20px 0;
 }
 
@@ -218,6 +218,23 @@ nav h1 {
 .aprice ul {
     width: 100%;
     list-style: none;
+}
+
+.photos p {
+    margin-bottom: 20px;
+}
+
+.photos a {
+    text-decoration: none;
+    padding: 10px 35px;
+    background: #2563EB;
+    color:#fff;
+    border-radius: 25px;
+}
+
+.photos a i {
+    margin-right: 10px;
+    
 }
 
 /******************** CONTACT STYLES *******************/
